@@ -1,6 +1,6 @@
 # Get pax values
 import pax
-from pax import configuration, datastructure
+from pax import configuration
 pax_config = configuration.load_configuration('XENON1T')
 tpc_length = pax_config['DEFAULT']['tpc_length']
 tpc_radius = pax_config['DEFAULT']['tpc_radius']
